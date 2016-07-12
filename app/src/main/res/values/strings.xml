@@ -32,5 +32,6 @@
     <string name="activity_title_txv_wrong">請輸入活動名稱！</string>
     <string name="activity_title_txv_create">建立活動</string>
     <string name="title_activity_map_select">Map</string>
+    <string name="title_activity_select">Select</string>
 
 </resources>
