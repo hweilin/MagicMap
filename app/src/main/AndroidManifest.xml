@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kimp.magicmap">
-
+    <!-- Network -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- GPS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <!-- 手機狀態權限 -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <!-- 網路權限 -->
@@ -20,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name="com.example.kimp.magicmap.LocationService"/>
     </application>
 
 </manifest>

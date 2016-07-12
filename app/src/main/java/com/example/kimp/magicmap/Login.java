@@ -63,7 +63,8 @@ public class Login extends AppCompatActivity {
 
                 if(status.equals("success"))
                 {
-                    Toast.makeText(Login.this, "Login OK", Toast.LENGTH_LONG).show();
+                    Intent service = new Intent(Login.this, LocationService.class);
+                    startService(service);
                 }else if(status.equals("fail"))
                 {
                     Toast.makeText(Login.this, "Login Fail", Toast.LENGTH_LONG).show();
