@@ -46,7 +46,8 @@
         <activity
             android:name=".MapSelect"
             android:label="@string/title_activity_map_select" />
-        <activity android:name=".Activity_Title"></activity>
+        <activity android:name=".Activity_Title" />
+        <activity android:name=".MapActivity"></activity>
     </application>
 
 </manifest>
