@@ -1,5 +1,6 @@
-#新增填寫活動細節與加入成員功能#
-MapSelect.java  
+#新增顯示地圖與成員位置#
+ActivityList.java  
 Activity_Title.java  
+MapActivity.java  
 AndroidManifest.xml  
-activity_title.xml  
+map_activity.xml  

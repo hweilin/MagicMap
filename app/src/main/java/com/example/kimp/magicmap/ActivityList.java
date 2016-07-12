@@ -13,6 +13,7 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -58,6 +59,16 @@ public class ActivityList extends Activity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                HashMap<String, String> getItem = (HashMap<String, String>) listView.getAdapter().getItem(position);
+                String getAid = getItem.get("Aid");
+                String getTitle = getItem.get("Title");
+
+                Intent intent = new Intent(ActivityList.this, MapActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("aid", getAid);
+                intent.putExtras(bundle);
+                startActivity(intent);
+                Toast.makeText(ActivityList.this, "活動名稱：" + getTitle, Toast.LENGTH_SHORT).show();
             }
         });
         //長按刪除
