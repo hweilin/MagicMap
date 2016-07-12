@@ -156,8 +156,13 @@ public class Activity_Title extends Activity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        Toast.makeText(Activity_Title.this, "新增成功", Toast.LENGTH_LONG).show();
-        // TODO: MapActivity.java
+
+        Intent intent = new Intent(Activity_Title.this, MapActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putString("aid", getAid);
+        intent.putExtras(bundle);
+        startActivity(intent);
+        finish();
     }
 
 }
