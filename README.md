@@ -1,5 +1,5 @@
-#新增地圖選取地點功能#
-ActivityList.java  
+#新增填寫活動細節與加入成員功能#
 MapSelect.java  
+Activity_Title.java  
 AndroidManifest.xml  
-map_select.xml
+activity_title.xml  
