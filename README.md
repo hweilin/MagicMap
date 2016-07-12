@@ -1,4 +1,5 @@
-#新增活動清單清單內容#
-Refresh.java  
-refresh.xml  
-simplelist.xml  
+#新增地圖選取地點功能#
+ActivityList.java  
+MapSelect.java  
+AndroidManifest.xml  
+map_select.xml
