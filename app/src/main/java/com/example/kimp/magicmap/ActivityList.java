@@ -50,6 +50,8 @@ public class ActivityList extends Activity {
         addActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(ActivityList.this, MapSelect.class);
+                startActivity(intent);
             }
         });
         //點擊進入活動清單
