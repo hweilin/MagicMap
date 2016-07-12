@@ -29,7 +29,8 @@
 
         <activity android:name=".Select" />
         <activity android:name=".FriendList" />
-        <activity android:name=".ActivityList"></activity>
+        <activity android:name=".ActivityList" />
+        <activity android:name=".Refresh"></activity>
     </application>
 
 </manifest>
