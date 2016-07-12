@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MagicMapTest</string>
+    <string name="label_select">選單</string>
+    <string name="label_friend_list">好友清單</string>
+    <string name="label_activity_list">活動清單</string>
+    <string name="label_activity_detail">活動資訊</string>
+    <string name="label_activity_map_select">活動地點</string>
+    <string name="label_activity_map">活動</string>
+
+    <string name="action_setting">設定</string>
+    <string name="login_txv_title">魔法地圖</string>
+    <string name="login_txv_NickName">使用者暱稱：</string>
+    <string name="login_edt_Name">輸入您的暱稱</string>
+    <string name="login_btn_Login">登入</string>
+
+    <string name="select_txv_friend">好友清單</string>
+    <string name="select_txv_activity">活動清單</string>
+
+    <string name="friendlist_txv_title">好友</string>
+    <string name="friend_dialog_title">好友資訊</string>
+
+    <string name="activity_btn_addActivity">建立活動</string>
+    <string name="activity_text_noActivity">目前沒有活動唷！</string>
+
+    <string name="mapSelect_txv_next">下一步</string>
+    <string name="mapSelect_txv_wrong">請點選活動地點！</string>
+
+
+    <string name="title_activity_maps">地圖</string>
+
+    <string name="activity_title_txv_activityName">活動名稱</string>
+    <string name="activity_title_txv_wrong">請輸入活動名稱！</string>
+    <string name="activity_title_txv_create">建立活動</string>
+    <string name="title_activity_map_select">Map</string>
+
+</resources>
