@@ -70,7 +70,14 @@ public class MapSelect extends FragmentActivity implements OnMapReadyCallback, G
                 }
                 //如果有lat, lng 就跳到ActivityTitle, 輸入活動的詳細資訊
                 else {
-                    // TODO: 跳至Activity_Title.java
+                    Intent intent = new Intent();
+                    intent.setClass(MapSelect.this, Activity_Title.class);
+                    Bundle bundle = new Bundle();
+                    bundle.putString("lat", lat);
+                    bundle.putString("lng", lng);
+                    intent.putExtras(bundle);
+                    startActivity(intent);
+                    finish();
                 }
             }
         });
